@@ -1,0 +1,139 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    margin: 0%;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 4rem;
+    position: fixed;
+    background-color: rgb(223, 241, 68);
+    z-index: 2;
+}
+.log{
+    width: 50%; 
+}
+.info{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.info>div{
+    font-size: 120%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    padding: 1%; 
+}
+
+.info>div:hover{
+    border-top: 3px solid rgb(21, 244, 244);
+    color: rgb(62, 220, 241);
+}
+.info>div a{
+    text-decoration: none;
+    font-size: 30px;
+    display:inline-block;
+}
+#abt-sub{
+    position: absolute;
+    top: 90%; 
+    left: 65%;
+    display: none;
+}
+ #abt:hover + span{
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 8rem;
+    width: 15%;
+    padding:0% 2%;
+    border: 1px solid black;
+    background-color: rgb(204, 233, 153);
+    border-radius: 1rem;
+}
+#abt-sub:hover{
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 8rem;
+    width: 15%;
+    padding:0% 2%;
+    border: 1px solid black;
+    background-color: white;
+    
+} 
+#abt-sub p:hover{
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    color: goldenrod;
+    background-color: black;
+    font-size: 120%;
+    width: 100%;
+}
+.section1{
+    display: flex;
+    position: relative;
+    top: 4rem;
+}
+.description{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.description>div{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.PandL{
+    width: 50%;
+}
+.PandL i:hover{
+    color: gray;
+}
+.section2{
+    position: relative;
+    top: 4rem;
+    background-color: rgb(229, 137, 137);
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 button{
+    border: none;
+    padding: 1%;
+    font-size: 110%;
+    color: black;
+    margin: 2%;
+    border-radius: 20px;
+}
+.section2 button:hover{
+    color: rgb(234, 171, 171);
+}
+
+footer{
+    position: relative;
+    top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(71, 233, 239);
+}
+footer div{
+    text-align: center;
+    color: rgb(18, 17, 16);
+}
+
